@@ -1,0 +1,4 @@
+#!/bin/bash
+total=$[$1]
+sudo hostname $1
+echo "Имя хоста изменено на $1"

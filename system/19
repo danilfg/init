@@ -1,0 +1,4 @@
+#!/bin/bash
+systemctl list-unit-files --type=service --state=enabled
+
+# Called startup scripts

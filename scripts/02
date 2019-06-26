@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Kogo deletim?"
+read deluser
+sudo userdel --force --remove $deluser

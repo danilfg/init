@@ -1,0 +1,4 @@
+With graphic session:
+Введи логин и пароль
+With ssh session:
+ssh username@remote_host затем вводишь пароль

@@ -1,4 +1,4 @@
 #!/bin/bash
-systemctl list-unit-files --type=service --state=enabled
+sudo systemctl list-unit-files --type=service --state=enabled
 
-# Called startup scripts
+# Называется startup scripts

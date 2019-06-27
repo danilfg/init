@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Kogo dobavlyaem?"
+read deluser
+sudo adduser --force --remove $deluser

@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo services ssh stop
+sudo service ssh stop

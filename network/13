@@ -1,0 +1,5 @@
+С помощью следующего shell script можно найти имя компьютера:
+
+##	#!/bin/bash
+##	NAME=$(ifconfig en0 | grep broadcast | awk '{print $2}');
+##	nslookup $NAME | grep name | awk '{print $4}';
